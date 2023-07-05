@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=MonteCarlo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: MonteCarlo, sans-serif;
+    font-weight: 300;
+    color: hwb(180 8% 69% / 0.925);
+    letter-spacing: 4px;
+}
+
+#h1,
+h2 {
+    font-family: Great+Vibes, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: hwb(180 8% 69% / 0.925);
+}
+
+#company-name {
+    float: left;
+    font-size: 320%;
+    color: #11b8c1;
+}
+
+#menu {
+
+    font-size: 140%;
+    letter-spacing: 4px;
+
+
+
+}
+
+#menu,
+#company-name {
+    line-height: 1ß00px;
+}
+
+#menu li {
+    float: right;
+    margin: 30px;
+    list-style-type: none;
+
+}
+
+#menu a {
+    text-decoration: double;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: thick double hwb(180 8% 69% / 0.925);
+}
+
+.active-link {
+    border-bottom: 5px double hwb(180 8% 69% / 0.925);
+
+}
+
+#general-information {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text1,
+#cover-text1 h2 {
+    color: hwb(180 8% 69% / 0.925);
+
+}
+
+#prices {
+    height: 1200px;
+    width: 100%;
+
+    position: relative;
+}
+
+#cover-text2,
+#cover-text2 h2 {
+    color: hwb(180 8% 69% / 0.925);
+
+}
+
+#contacts {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text3,
+#cover-text3 h2 {
+    color: hwb(180 8% 69% / 0.925);
+
+}
+
+
+#nails1 {
+    height: 800px;
+    width: 100%;
+    background-image: url('../images/nails1.jpeg');
+    animation-name: nails1-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: back;
+}
+
+#nails2 {
+    height: 1200px;
+    width: 100%;
+    background-image: url('../images/nails2.jpg');
+    animation-name: nails2-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: back;
+}
+
+
+#nails3 {
+    height: 800px;
+    width: 100%;
+    background-image: url('../images/nails3.jpg');
+    animation-name: nails3-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: back;
+}
+
+#nails4 {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/nails4.jpg');
+    animation-name: nails4-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: back;
+}
+
+@keyframes nails1-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes nails2-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes nails3-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes nails4-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+#cover-text1 {
+    font-size: 120%;
+    font-family: MonteCarlo, sans-serif;
+    text-transform: none;
+    letter-spacing: 5px;
+
+    width: 350px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-letf: 10px;
+
+    background-color: Transparent;
+
+    top: 50px;
+    left: 120px;
+
+    position: absolute;
+
+}
+
+#cover-text2 {
+    font-size: 120%;
+    font-family: MonteCarlo, sans-serif;
+    text-transform: none;
+    letter-spacing: 5px;
+
+    width: 350px;
+    height: 400px;
+
+    padding-top: 20px;
+    padding-letf: 10px;
+
+    background-color: Transparent;
+
+    top: 50px;
+    right: 120px;
+
+    position: absolute;
+
+}
+
+#cover-text3 {
+    font-size: 120%;
+    font-family: MonteCarlo, sans-serif;
+    text-transform: none;
+    letter-spacing: 5px;
+
+    width: 350px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-letf: 10px;
+
+    background-color: Transparent;
+
+    top: 50px;
+    left: 120px;
+
+    position: absolute;
