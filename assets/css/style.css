@@ -241,3 +241,27 @@ h2 {
     left: 120px;
 
     position: absolute;
+}
+
+footer {
+    height: 100px;
+    
+}
+
+.social-networks {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 20px;
+  
+}
+
+.law-info {
+    text-align: center;
+}
+
+.social-networks i {
+    font-size:xx-large;
+    margin: 1%;
+    padding: 5%;
+    color: hwb(180 8% 69% / 0.925);
+}
