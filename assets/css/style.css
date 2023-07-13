@@ -119,8 +119,11 @@ h2 {
     width: 100%;
     background-image: url('../images/nails2.jpg');
     animation-name: nails2-zoom;
-    animation-duration: 10s;
+    animation-duration: 3s;
     animation-fill-mode: back;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 
@@ -154,11 +157,11 @@ h2 {
 
 @keyframes nails2-zoom {
     from {
-        transform: scale(1);
+        transform: scale(0.85);
     }
 
     to {
-        transform: scale(1.2);
+        transform: scale(1);
     }
 }
 
@@ -266,6 +269,30 @@ footer {
     margin: 1%;
     padding: 5%;
     color: hwb(180 8% 69% / 0.925);
+}
+
+
+.nail, .hair {
+    width: 45%;
+    display: inline-block;
+    font-size: larger;
+    background-color: rgba(200, 0, 0, 0.5);
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 4%;
+}
+
+.nail ul, .hair ul {
+    list-style: none;
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    color: black;
+}
+
+.price-holder{
+    width: 100%;
+    display: block;
 }
 
 @media screen and  (max-width: 1200px) {
