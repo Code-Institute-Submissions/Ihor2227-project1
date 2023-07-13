@@ -111,6 +111,7 @@ h2 {
     animation-name: nails1-zoom;
     animation-duration: 10s;
     animation-fill-mode: back;
+
 }
 
 #nails2 {
@@ -137,7 +138,7 @@ h2 {
     width: 100%;
     background-image: url('../images/nails4.jpg');
     animation-name: nails4-zoom;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-fill-mode: back;
 }
 
@@ -228,6 +229,7 @@ h2 {
     font-family: MonteCarlo, sans-serif;
     text-transform: none;
     letter-spacing: 5px;
+    
 
     width: 350px;
     height: 400px;
@@ -244,24 +246,118 @@ h2 {
 }
 
 footer {
-    height: 100px;
+    height: 80px;
     
 }
 
 .social-networks {
     text-align: center;
-    padding-top: 50px;
-    margin-top: 20px;
-  
+    
 }
 
 .law-info {
     text-align: center;
+    margin-bottom: 2%;
 }
 
 .social-networks i {
-    font-size:xx-large;
+    margin-top: 40px;
+    font: size 150%;
     margin: 1%;
     padding: 5%;
     color: hwb(180 8% 69% / 0.925);
+}
+
+@media screen and  (max-width: 1200px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text1 {
+        width: 90%;
+        height: 120px;
+        left: 1%;
+        margin: 0 auto;
+    }
+
+    #cover-text2 {
+        width: 90%;
+        height: 120px;
+        left: 1%;
+        margin: 0 auto;
+    }
+
+    #cover-text3 {
+        width: 90%;
+        height: 120px;
+        left: 1%;
+        margin: 0 auto;
+    }
+
+
+
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and  (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: center;
+      
+    }
+
+    #cover-text1 {
+        width: 90%;
+        height: 120px;
+        left: 1%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #cover-text2 {
+        width: 90%;
+        height: 120px;
+        left: 1%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #cover-text3 {
+        width: 90%;
+        height: 120px;
+        left: 1%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+}
+
+.form-section {
+    clear: left;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    text-align: center;
+}
+
+#sign-up {
+    text-align: center;
+    
+}
+
+#capture3 {
+    color: red;
 }
