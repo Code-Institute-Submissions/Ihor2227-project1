@@ -9,9 +9,12 @@
 body {
     font-family: MonteCarlo, sans-serif;
     font-weight: 300;
-    color: hwb(180 8% 69% / 0.925);
+    color: hwb(180 2% 80% / 0.925);
     letter-spacing: 4px;
+    background-color: #d9f1f2;
 }
+
+
 
 #h1,
 h2 {
@@ -23,8 +26,9 @@ h2 {
 
 #company-name {
     float: left;
-    font-size: 320%;
-    color: #11b8c1;
+    font-size: 420%;
+    color: hwb(180 8% 69% / 0.925);
+    margin-left: 20px;
 }
 
 #menu {
@@ -77,15 +81,15 @@ h2 {
 }
 
 #prices {
-    height: 1200px;
+    height: 800px;
     width: 100%;
-
     position: relative;
 }
 
 #cover-text2,
 #cover-text2 h2 {
     color: hwb(180 8% 69% / 0.925);
+    text-align: center;
 
 }
 
@@ -93,8 +97,10 @@ h2 {
     height: 800px;
     width: 100%;
     overflow: hidden;
+    position:relative;
+    text-align: center;
+   
 
-    position: relative;
 }
 
 #cover-text3,
@@ -115,7 +121,7 @@ h2 {
 }
 
 #nails2 {
-    height: 1200px;
+    height: 800px;
     width: 100%;
     background-image: url('../images/nails2.jpg');
     animation-name: nails2-zoom;
@@ -134,6 +140,7 @@ h2 {
     animation-name: nails3-zoom;
     animation-duration: 10s;
     animation-fill-mode: back;
+    
 }
 
 #nails4 {
@@ -148,37 +155,27 @@ h2 {
 @keyframes nails1-zoom {
     from {
         transform: scale(1);
-    }
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
 
     to {
         transform: scale(1.2);
     }
 }
 
-@keyframes nails2-zoom {
-    from {
-        transform: scale(0.85);
-    }
 
-    to {
-        transform: scale(1);
-    }
-}
 
 @keyframes nails3-zoom {
     from {
         transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.2);
-    }
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
 }
-
-@keyframes nails4-zoom {
-    from {
-        transform: scale(1);
-    }
 
     to {
         transform: scale(1.2);
@@ -190,10 +187,8 @@ h2 {
     font-family: MonteCarlo, sans-serif;
     text-transform: none;
     letter-spacing: 5px;
-
     width: 350px;
     height: 400px;
-
     padding-top: 40px;
     padding-letf: 10px;
 
@@ -232,43 +227,44 @@ h2 {
     font-family: MonteCarlo, sans-serif;
     text-transform: none;
     letter-spacing: 5px;
-    
-
     width: 350px;
     height: 400px;
-
     padding-top: 40px;
-    padding-letf: 10px;
-
     background-color: Transparent;
-
     top: 50px;
     left: 120px;
-
     position: absolute;
+   
 }
 
 footer {
     height: 80px;
+    color: black;
+    background-color: #d9f1f2;
+    
     
 }
 
+
 .social-networks {
     text-align: center;
+    font-size: large;
     
 }
 
 .law-info {
     text-align: center;
     margin-bottom: 2%;
+    background-color: #d9f1f2;
 }
 
 .social-networks i {
     margin-top: 40px;
     font: size 150%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: hwb(180 8% 69% / 0.925);
+    
 }
 
 
@@ -276,23 +272,30 @@ footer {
     width: 45%;
     display: inline-block;
     font-size: larger;
-    background-color: rgba(200, 0, 0, 0.5);
+    background-color: rgba(240, 121, 121, 0.3);
     color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin-left: 4%;
+    line-height: 1.8;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .nail ul, .hair ul {
     list-style: none;
-    width: 80%;
+    width: 100%;
     position: relative;
     margin-left: 10%;
     color: black;
+    
 }
 
 .price-holder{
     width: 100%;
     display: block;
+    font-style: oblique 18deg;
+    
 }
 
 @media screen and  (max-width: 1200px) {
@@ -325,9 +328,6 @@ footer {
         left: 1%;
         margin: 0 auto;
     }
-
-
-
 
     hr {
         display: none;
@@ -377,14 +377,14 @@ footer {
     background-size: cover;
     background-position: center;
     height: 900px;
-    text-align: center;
+    font-size: x-large;
+    
+    
 }
 
 #sign-up {
     text-align: center;
     
+
 }
 
-#capture3 {
-    color: red;
-}
