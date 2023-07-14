@@ -123,6 +123,9 @@ h2 {
     animation-name: nails1-zoom;
     animation-duration: 10s;
     animation-fill-mode: back;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
 }
 
@@ -146,6 +149,9 @@ h2 {
     animation-name: nails3-zoom;
     animation-duration: 10s;
     animation-fill-mode: back;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     
 }
 
