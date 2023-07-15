@@ -105,6 +105,7 @@ h2 {
     overflow: hidden;
     position:relative;
     text-align: center;
+    
    
 
 }
@@ -156,7 +157,7 @@ h2 {
 }
 
 #nails4 {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-image: url('../images/nails4.jpg');
     animation-name: nails4-zoom;
