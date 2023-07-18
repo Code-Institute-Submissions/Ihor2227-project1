@@ -22,7 +22,7 @@
     font-weight: 200;
     color: hwb(180 2% 80% / 0.925);
     letter-spacing: 4px;
-    background-color: #d9f1f2;
+    background-color: hwb(182 85% 5%);
   }
   
   
@@ -34,7 +34,7 @@
 
 
   #menu a, #menu h1{
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
     text-align: center;
     color: hwb(180 2% 80% / 0.925);
@@ -42,7 +42,10 @@
 }
 
 #menu h1{
-    font-size: x-large;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 6px;
 }
 
 /* 
@@ -53,6 +56,7 @@
 
 #menu-options {
     margin-top: 7px;
+    
 }
 
 #about{
@@ -61,11 +65,12 @@
     background-position: center center;
     min-height: 400px;
     height: auto;
+    
 }
   
 
 #about .col-4{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 #prices{
@@ -78,22 +83,27 @@
 
 
 #prices .col-6{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: hwb(182 85% 5% / 0.4);
 }
 
 .manicure-block, .pedicure-block {
     text-align: center;
     color: red;
     font-size: xx-large;
+    
   }
   
 #prices ul, #contact ul {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
     list-style: none;
     width: 100%;
     position: relative;
     color: black;
     text-align: justify;
     font-size: larger;
+    font-style:italic;
+    
   }
 
   #contact{
@@ -102,14 +112,36 @@
     background-position: center center;
     min-height: 400px;
     height: auto;
+    text-align: center;
+    border-radius: 20px;
 }
 
 
-#contact-text{
+ #contact-text{
     background-color: rgba(255, 255, 255, 0.6);
+    
 }
 
 
+
+footer {
+  height: 80px;
+  color: black;
+  text-align: center;
+  
+  
+}
+
+
+#sign-up {
+  background-image: url('../images/nails4.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+}
 
   @media only screen and (min-width: 600px) {
     /* For tablets: */
@@ -141,3 +173,17 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+  @keyframes about-zoom {
+    from {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+
+    to {
+        transform: scale(1.2);
+    }
+}
