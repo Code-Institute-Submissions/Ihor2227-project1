@@ -30,6 +30,7 @@ ___
 ### The About Us 
 ___
   The About Us section includes general information about service.
+  ![](https://github.com/Ihor2227/project1/blob/main/assets/media/screenshots/about%20us.png)
 
 
 
