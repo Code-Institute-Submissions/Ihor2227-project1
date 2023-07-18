@@ -106,6 +106,7 @@ ___
 ### Accessibility
        I confirmed that the colors and fonts chosen are easy to read and accessible  by running it through lighthouse in devtools
 
+![](screenshots/lighthouse.png)
 
 
 ### Deployment
