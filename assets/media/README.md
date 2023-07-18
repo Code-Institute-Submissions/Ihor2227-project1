@@ -19,6 +19,8 @@ The other Navigation links are to the right: Prices, Contact Us and Sign Up whic
 The Navigation is in a font looks like code, and a colour that contrasts with the background.
 The Navigation clearly tells the user the name of the website and makes the different sections of information easy to find.  
 
+![](screenshots/navigation.png)
+
 
 
 ### The Header 
@@ -26,11 +28,13 @@ ___
   The Header shows the name of the club. And continuing the computer code font theme.
   The header explains the user with clear information about what the site is.
 
+  ![](header.png)
+
 
 ### The About Us 
 ___
   The About Us section includes general information about service.
-  ![](https://github.com/Ihor2227/project1/blob/main/assets/media/screenshots/about%20us.png)
+  ![](screenshots/about%20us.png)
 
 
 
@@ -38,6 +42,8 @@ ___
 ___
 
   The **Prices** section gives pricing details and treatments list.
+
+  ![](screenshots/prices.png)
 
 
 
@@ -52,6 +58,8 @@ ___
   
   The sign up form is valuable to the user as it gives them the ability to sign up to join The Nails from Anastasiia.
 
+  ![](screenshots/sign-up.png)
+
 
 ### The Contact Us Section
 ___
@@ -59,6 +67,7 @@ ___
   The contact section encourages users to get in contact and provides a phone number and  email address for booking appointment.
        -  The contact section is valuable to the user as it gives them the ability to find and contact The Nails from Anastasiia if they need to.
 
+![](screenshots/contacts.png)
 
 
 
@@ -68,7 +77,8 @@ ___
 
 The Footer includes Instagram icon and law information. 
 The Instagram icon helps to users can find Nails by Anastasia  [Instagram page](https://www.instagram.com/manicure_doneraile/).
-       
+
+![](screenshots/footer.png)
 ### Testing
 ___
 
