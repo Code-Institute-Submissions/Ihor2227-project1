@@ -80,6 +80,7 @@ body {
   height: auto;
   height: 600px;
   font-size: x-large;
+  font-weight: 100;
 
 }
 
@@ -109,12 +110,13 @@ body {
   color: red;
   font-size: xx-large;
 
+
 }
 
 #prices ul,
 #contact ul {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 1.8;
+  line-height: 1.2;
   list-style: none;
   width: 100%;
   position: relative;
@@ -133,12 +135,14 @@ body {
   height: auto;
   text-align: center;
   height: 600px;
+  
 
 }
 
 
 #contact-text {
   background-color: rgba(255, 255, 255, 0.6);
+  line-height: 1.8;
 
 }
 
@@ -166,6 +170,10 @@ footer {
   font-size: x-large;
 
 
+}
+
+.social-networks {
+  list-style: none;
 }
 
 @media only screen and (min-width: 600px) {
@@ -284,3 +292,6 @@ input {
   -o-border-radius: 6px;
 }
 
+#law-info {
+  font-weight: 100;
+}
