@@ -40,6 +40,7 @@ body {
   text-align: center;
   color: hwb(180 2% 80% / 0.925);
   font-weight: 400;
+  line-height: 75px;
 }
 
 #menu h1 {
@@ -47,13 +48,28 @@ body {
   text-decoration: none;
   text-align: center;
   letter-spacing: 6px;
+  line-height: 75px;
+  
 }
+
+#menu a:hover {
+  border-bottom: thick double hwb(180 8% 69% / 0.925);
+}
+
 
 
 
 #menu-options {
   margin-top: 7px;
+  font-size: x-large;
+  line-height: 75px;
 
+}
+
+#about-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
 }
 
 #about {
@@ -62,9 +78,11 @@ body {
   background-position: center center;
   min-height: 400px;
   height: auto;
-  height: 800px;
+  height: 600px;
+  font-size: x-large;
 
 }
+
 
 
 #about .col-4 {
@@ -114,7 +132,7 @@ body {
   min-height: 400px;
   height: auto;
   text-align: center;
-  height: 800px;
+  height: 600px;
 
 }
 
@@ -130,6 +148,8 @@ footer {
   height: 80px;
   color: black;
   text-align: center;
+  marker: none;
+ 
 
 
 }
@@ -143,6 +163,7 @@ footer {
   height: auto;
   text-align: center;
   height: 800px;
+  font-size: x-large;
 
 
 }
@@ -249,16 +270,17 @@ footer {
   }
 }
 
-@keyframes about-zoom {
-  from {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.2);
-  }
+input {
+  width: 20%;
+  height: 10%;
+  margin: 8px 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid #d9f1f2;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
+
