@@ -28,7 +28,7 @@ ___
   The Header shows the name of the club. And continuing the computer code font theme.
   The header explains the user with clear information about what the site is.
 
-  ![](header.png)
+  ![](screenshots/header.png)
 
 
 ### The About Us 
