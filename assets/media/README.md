@@ -88,6 +88,32 @@ I confirmed that this project is responsive, looks good and functions on all sta
 I confirmed That the navigation, header, Instagram icon, prices, contact us and sign up text are all readable and easy to understand. 
 I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and submit button works.
 
+Personal Testing
+Through devices that I have at home/readily available to me, I was able to continuously test on:
+
+*Phone:*
+Samsung Galaxy S9
+Google Chrome
+Samsung Internet
+Google Chrome
+iPhone 11 proMax, 14 proMax
+Safari
+*Tablet*
+iPad Mini 7.9"
+Safari
+iPad 9.7"
+Safari
+
+*Computer*
+MacBook Air M2
+Google Chrome
+Microsoft Edge
+Opera
+Mozilla Firefox
+Safari
+*ASUS 15"*
+Microsoft Edge
+Google Chrome
 ### Bugs
 ___
 
@@ -101,8 +127,10 @@ ___
 
 ### HTML
 	No errors were returned when passing through the official W3C validator
+  https://validator.w3.org/
 ### CSS
 	No errors were found when passing through the official (Jigsaw) validator
+  https://jigsaw.w3.org/css-validator/
 ### Accessibility
        I confirmed that the colors and fonts chosen are easy to read and accessible  by running it through lighthouse in devtools
 
