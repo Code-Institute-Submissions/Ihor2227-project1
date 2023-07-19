@@ -19,7 +19,7 @@ The other Navigation links are to the right: Prices, Contact Us and Sign Up whic
 The Navigation is in a font looks like code, and a colour that contrasts with the background.
 The Navigation clearly tells the user the name of the website and makes the different sections of information easy to find.  
 
-![](screenshots/navigation.png)
+![](assets/media/screenshots/screenshots/navigation.png)
 
 
 
