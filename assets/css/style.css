@@ -80,7 +80,7 @@ body {
   height: auto;
   height: 600px;
   font-size: x-large;
-  font-weight: 100;
+  font-weight: 50;
 
 }
 
@@ -106,7 +106,7 @@ body {
 
 .manicure-block,
 .pedicure-block {
-  text-align: center;
+  text-align:center;
   color: red;
   font-size: xx-large;
 
@@ -121,9 +121,10 @@ body {
   width: 100%;
   position: relative;
   color: black;
-  text-align: justify;
+  text-align: center;
   font-size: larger;
   font-style: italic;
+
 
 }
 
@@ -278,20 +279,8 @@ footer {
   }
 }
 
-input {
-  width: 20%;
-  height: 10%;
-  margin: 8px 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: 2px solid #d9f1f2;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-}
 
-#law-info {
+
+/* #law-info {
   font-weight: 100;
-}
+} */
