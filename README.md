@@ -1,6 +1,6 @@
 # *Nails by Anastasia*
 ____
-
+![](assets/media/screenshots/ami.jpg)
 #### The Nails by Anastasia  website is a landing page for woman’s looking for a best nails treatment. The Nails by Anastasia offers good service with lowest price. 
 
 
@@ -28,13 +28,13 @@ ___
   The Header shows the name of the club. And continuing the computer code font theme.
   The header explains the user with clear information about what the site is.
 
-  ![](screenshots/header.png)
+  ![](assets/media/screenshots/header.png)
 
 
 ### The About Us 
 ___
   The About Us section includes general information about service.
-  ![](screenshots/about%20us.png)
+  ![](assets/media/screenshots/about%20us.png)
 
 
 
@@ -43,7 +43,7 @@ ___
 
   The **Prices** section gives pricing details and treatments list.
 
-  ![](screenshots/prices.png)
+  ![](assets/media/screenshots/prices.png)
 
 
 
@@ -58,7 +58,7 @@ ___
   
   The sign up form is valuable to the user as it gives them the ability to sign up to join The Nails from Anastasiia.
 
-  ![](screenshots/sign-up.png)
+  ![](assets/media/screenshots/sign-up.png)
 
 
 ### The Contact Us Section
@@ -67,7 +67,7 @@ ___
   The contact section encourages users to get in contact and provides a phone number and  email address for booking appointment.
        -  The contact section is valuable to the user as it gives them the ability to find and contact The Nails from Anastasiia if they need to.
 
-![](screenshots/contacts.png)
+![](assets/media/screenshots/contacts.png)
 
 
 
@@ -78,7 +78,7 @@ ___
 The Footer includes Instagram icon and law information. 
 The Instagram icon helps to users can find Nails by Anastasia  [Instagram page](https://www.instagram.com/manicure_doneraile/).
 
-![](screenshots/footer.png)
+![](assets/media/screenshots/footer.png)
 ### Testing
 ___
 
